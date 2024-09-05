@@ -12,10 +12,10 @@ const HookUseEffect =()=> {
         },1000)
     },[name])
     const changename=()=>{
-        setname("King.....")
+        setname("Madhu")
     }
     const changename1=()=>{
-        setname("Queens....")
+        setname("Vishnu")
     }
   return (
    <center>
