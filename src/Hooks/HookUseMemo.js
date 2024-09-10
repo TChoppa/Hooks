@@ -8,7 +8,7 @@ function cube(num)
 {  
     console.log("function working fine")
     return Math.pow(num,3)
-   
+    
 }
 //const INum = cube(number)
 const INum = useMemo(()=>cube(number),[number])

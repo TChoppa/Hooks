@@ -7,6 +7,7 @@ import PracHooks from './Hooks/PracHooks';
 import HookUseEffect from './Hooks/HookUseEffect';
 import HookUseRef from './Hooks/HookUseRef';
 import HookUseMemo from './Hooks/HookUseMemo';
+import HookUseCallBack from './Hooks/HookUseCallBack';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // <React.StrictMode>
@@ -14,7 +15,8 @@ root.render(
   // <HookUseRef/>
   // </React.StrictMode>
   // <HookUseRef/>
-  <HookUseMemo/>
+ // <HookUseMemo/>
+ <HookUseCallBack/>
 );
 
 // If you want to start measuring performance in your app, pass a function
